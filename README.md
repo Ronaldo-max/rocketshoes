@@ -2,10 +2,11 @@
 
 <img src="design.jpeg">
 
-### Desafio do dicover
-<br>
+### Discovery Challenge
 
-### Tecnologias utilizadas
+🥾 mini sports shoes e-commerce
+
+### Technologies used
 
 - HTML
 - CSS 
