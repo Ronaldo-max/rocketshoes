@@ -307,14 +307,10 @@ iframe {
 @media (max-width: 850px) {
     #menu {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(1fr);
         grid-template-rows: 2fr;
         padding: 1rem 2rem;
-    }
-
-    #logo {
-        grid-column-start: 1;
-        grid-column-end: 1;
+        gap: 0 2rem;
     }
 
     .menu {
@@ -328,17 +324,17 @@ iframe {
         margin-top: 1rem;
     }
 
-    #search-camp {
-        grid-column-start: 2;
-        grid-column-end: 3;
-    }
-
-    .bag {
-        grid-column-start: 4;
-        grid-column-end: 4;
-    }
-
     main {
         padding-top: 40px;
+    }
+
+    .small-images img {
+        width: 130px;
+        height: 90px;
+    }
+
+    iframe {
+        height: 250px;
+        margin: 1rem 0;
     }
 }
